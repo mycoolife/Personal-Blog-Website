@@ -10,7 +10,6 @@
   grid-template-columns: 1fr 1fr;
   grid-template-rows: minmax(30px, auto);
   gap: 6px;
-  border: solid 3px blue;
   grid-template-areas:
   "nav nav"
   "top-post top-post"
@@ -23,8 +22,7 @@
 @media (min-width: 600px) {
   #grid-container {
     height: 100vh;
-    display: grid;
-    border: solid 3px rgb(59, 8, 88);
+    display: grid;    
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 60px auto auto auto 30px;
     gap: 6px;
@@ -165,11 +163,16 @@
   align-items: center;
   justify-content: center;
 }
-
+.newsletter-subscribe{
+  text-align: left;
+  padding: 5px;
+}
 .newsletter-container {
   display: flex;
   flex-flow: row nowrap;
   padding: 5px;
+  background-color: rgba(15, 158, 235, 0.276);
+
 }
 
 .newsletter-element {
