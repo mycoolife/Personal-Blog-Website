@@ -9,3 +9,7 @@ footer {
 .fab {
   padding: 5px;
 }
+.fabTitle {
+  padding: 12px;
+  color:  rgb(233, 117, 16);
+}
